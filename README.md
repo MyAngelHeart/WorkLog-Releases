@@ -1,2 +1,19 @@
-# WorkLog-Releases
-WorkLog Windows installers and release notes. Source code is maintained separately.
+# WorkLog Windows 배포
+
+개인용 Windows 업무일지 프로그램의 설치 파일과 패치노트를 제공합니다.
+
+[최신 버전 다운로드](https://github.com/MyAngelHeart/WorkLog-Releases/releases/latest)
+
+## 설치
+
+Windows 10/11 x64에서 설치 EXE를 실행하세요. Python 설치는 필요하지 않습니다. 기본 설치 위치는 Program Files/WorkLog이며 관리자 권한을 요청합니다. 바탕화면 바로가기는 기본으로 생성합니다. 설치 파일은 아직 코드 서명되지 않았습니다.
+
+## 업데이트
+
+0.9.1 이하에서는 0.10.0 설치 파일을 직접 내려받아 한 번 설치하세요. 0.10.0부터 Help → 업데이트 확인에서 다운로드 후 설치를 진행할 수 있습니다.
+
+설치 전 작성 중인 일지를 저장하세요. 앱 내 업데이트는 DB와 설정을 자동 백업한 뒤 진행합니다. 수동 설치 전에는 데이터를 별도로 백업하세요.
+
+업무 데이터는 각 PC의 `%LOCALAPPDATA%\WorkLog\data`에 저장되며 GitHub로 전송하지 않습니다. 프로그램 업데이트·제거 시 업무 데이터는 유지됩니다. PC 간 데이터 동기화·내보내기·불러오기는 아직 지원하지 않습니다.
+
+이 저장소에는 배포 파일과 안내만 게시합니다.
